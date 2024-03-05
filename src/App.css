@@ -3,13 +3,15 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color:lightgrey;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+    height: 3em;
+    padding: 0.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    border: 1px solid black;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -39,4 +41,16 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.ImgRecord {
+    width: 200px; /* Adjust this as needed */
+    height: 200px; /* Adjust this as needed */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
